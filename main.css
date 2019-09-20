@@ -1,91 +1,81 @@
 .header{
-	font-family: sans-serif;
-	text-align: center;
-}
-.head {
-	width:250px;
-	background-color: #55C877;
-	border-radius: 20px;
-	border-top-right-radius: 200px;
-	border-bottom-right-radius: 200px;
-	padding-bottom:5px;
-	padding-top:5px;
-	margin-left:800px;
-	margin-right:10px;
-}	
-.tentacles{
-	list-style: none;
-	margin-left:-540px;
-}	
-.tentacle {
-	display: block;
-	width:450px;
-	height:30px;
-	line-height: 30px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left:auto;
-	vertical-align: middle;
-	white-space: nowrap;
-	/*border-left: none;*/
-	text-align: center;
-	
-}
-.tentacle, .management{
-
-	font-family: sans-serif;
-	font-size: 11px;
-}
-.tentacle div{
-	width: 200px;
-	height:30px;
-	left:310px;
-	background-color: #55C877;
-	position: absolute;
-	display: inline-block;
-	float:right;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: -10px;
-	
-}
-.tentacle__10 div {
-	width:50px;
-	left:510px;
-}
-.tentacle__20 div {
-	width:100px;
-	left:460px;
-}
-.tentacle__30 div {
-	width:150px;
-	left:410px;
-}
-.tentacle__40 div {
-	width:200px;
-	left:360px;
-}
-.tentacle__50 div {
-	width:250px;
-	left: 310px
-}
-.tentacle__60 div {
-	width:300px;
-	left: 260px;
-}
-.tentacle__70 div {
-	width:350px;
-	left: 210px;
-}
-.tentacle__80 div {
-	width:400px;
-	left: 160px;
-}
-.tentacle__90 div {
-	width:450px;
-	left: 110px;
-}
-.tentacle__100 div{
-	width:500px;
-	left: 60px;
-}
+       font-family: sans-serif;
+       text-align: center;
+       }
+.head{
+     width:250px; /*Ширина*/
+     background-color: #715fb7;
+     border-radius: 0px;
+     border-top-right-radius: 200px;
+     border-bottom-right-radius: 200px;
+     padding-bottom:0px;
+     padding-top:0px;
+     margin-left:800px;
+     margin-right:10px;
+     }	
+.tentacles{/*Список+лапки=единый блок*/
+          margin-left:-540px;
+          }	
+.tentacle{/*Список - форматирование*/
+         display: block;
+         width:450px;
+         height:32px;/*высота строки*/
+         line-height:30px;/*Отступ сверху*/
+         margin-top:0px;
+         margin-right:auto;
+         margin-left:auto;
+         vertical-align:middle;
+         text-align:center;
+         }
+.tentacle, .management{/*Список - формат*/
+                      font-family: sans-serif;
+                      font-size: 15px;
+                      }
+.tentacle div{/*Лапки - форматирование*/
+             height:30px;
+             background-color: #715fb7;
+             position: absolute;
+             float:right;
+             border-top-left-radius: 30px;
+             border-bottom-left-radius: 30px;
+             }
+.tentacle__10 div{/*Уровни лапок*/
+                 width:50px;
+                 left:510px;
+                 }
+/*.tentacle__20 div{
+                 width:100px;
+                 left:460px;
+                 }*/
+.tentacle__30 div{
+                 width:150px;
+                 left:410px;
+                 }
+.tentacle__40 div{
+                 width:200px;
+                 left:360px;
+                 }
+.tentacle__50 div{
+                 width:250px;
+                 left: 310px
+                 }
+.tentacle__60 div{
+                 width:300px;
+                 left: 260px;
+                 }
+.tentacle__70 div{
+                 width:350px;
+                 left: 210px;
+                 }
+.tentacle__80 div{
+                 width:400px;
+                 left: 160px;
+                 }
+/*.tentacle__90 div{
+                 width:450px;
+                 left: 110px;
+                 }*/
+/*.tentacle__100 div{
+                  width:500px;
+                  left: 60px;
+                  }*/
